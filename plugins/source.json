@@ -15,6 +15,14 @@
     "timetask": {
       "url": "https://github.com/haikerapples/timetask.git",
       "desc": "一款定时任务系统的插件"
+    },
+    "midjourney_turbo": {
+      "url": "https://github.com/chazzjimel/midjourney_turbo.git",
+      "desc": "midjourney画图的插件"
+    },
+    "newgpt_turbo": {
+      "url": "https://github.com/chazzjimel/newgpt_turbo.git",
+      "desc": "GPT函数调用免命令联网的插件"
     }
   }
 }
