@@ -61,9 +61,10 @@ class SessionManager(object):
         session = self.sessions[session_id]
         return session
 
-    def session_query(self, query, session_id):
+    def session_query(self, query, session_id, add_to_history=True):
         session = self.build_session(session_id)
-        session.add_query(query)
+        if add_to_history:
+            session.add_query(query)
         try:
             max_tokens = conf().get("conversation_max_tokens", 1000)
             total_tokens = session.discard_exceeding(max_tokens, None)
