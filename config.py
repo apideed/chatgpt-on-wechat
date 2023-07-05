@@ -106,7 +106,7 @@ available_setting = {
     "use_linkai": False,
     "linkai_api_key": "",
     "linkai_app_code": "",
-    "accept_friend": False,
+    "accept_friend": False,     # 配置是否自动通过好友请求，随机延迟1-10秒
 }
 
 
